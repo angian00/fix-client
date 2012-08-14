@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>layout</key>
+    <dict>
+        <key>screenWidth</key>
+        <integer>768</integer>
+
+        <key>screenHeight</key>
+        <integer>1024</integer>
+
+        <key>playerNameWidth</key>
+        <integer>350</integer>
+
+        <key>playerNameHeight</key>
+        <integer>40</integer>
+    </dict>
+
+    <key>imagePaths</key>
+    <dict>
+        <key>chessboard</key>
+        <string>chessboard.png</string>
+    </dict>
+
+    <key>colorScheme</key>
+    <dict>
+        <key>infoText</key>
+        <string>0xf9f9f9</string>
+
+        <key>infoBkg</key>
+        <string>0x202020</string>
+
+        <key>timeActiveText</key>
+        <string>0xffffff</string>
+
+        <key>timeActiveBkg</key>
+        <string>0xc2c2c2</string>
+    </dict>
+
+    <key>fonts</key>
+    <dict>
+        <key>playerName</key>
+        <dict>
+            <key>fontName</key>
+            <string>AmericanTypewriter</string>
+
+            <key>fontSize</key>
+            <integer>36</integer>
+        </dict>
+    </dict>
+</dict>
+</plist>
+

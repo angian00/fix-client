@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650BBC5815DA512A006D6A17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650BBC5715DA512A006D6A17 /* UIKit.framework */; };
+		650BBC5A15DA512A006D6A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650BBC5915DA512A006D6A17 /* Foundation.framework */; };
+		650BBC5C15DA512A006D6A17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650BBC5B15DA512A006D6A17 /* CoreGraphics.framework */; };
+		650BBC9115DA5194006D6A17 /* FicsClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BBC7415DA5194006D6A17 /* FicsClientAppDelegate.m */; };
+		650BBC9215DA5194006D6A17 /* ConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BBC7715DA5194006D6A17 /* ConsoleViewController.m */; };
+		650BBC9315DA5194006D6A17 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BBC7915DA5194006D6A17 /* GameViewController.m */; };
+		650BBC9415DA5194006D6A17 /* TestFigurinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BBC7B15DA5194006D6A17 /* TestFigurinesViewController.m */; };
+		650BBC9615DA5194006D6A17 /* FicsConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BBC8015DA5194006D6A17 /* FicsConnector.m */; };
+		650BBC9715DA5194006D6A17 /* GraphicsProps.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BBC8215DA5194006D6A17 /* GraphicsProps.m */; };
+		650BBC9815DA5194006D6A17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BBC8315DA5194006D6A17 /* main.m */; };
+		650BBC9915DA5194006D6A17 /* GameInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BBC8615DA5194006D6A17 /* GameInfo.m */; };
+		650BBC9A15DA5194006D6A17 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BBC8815DA5194006D6A17 /* Piece.m */; };
+		650BBC9B15DA5194006D6A17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 650BBC8A15DA5194006D6A17 /* InfoPlist.strings */; };
+		650BBC9C15DA5194006D6A17 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650BBC8C15DA5194006D6A17 /* MainWindow.xib */; };
+		650BBC9D15DA5194006D6A17 /* graphics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 650BBC8E15DA5194006D6A17 /* graphics.plist */; };
+		650BBC9E15DA5194006D6A17 /* chessboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BBC9015DA5194006D6A17 /* chessboard.png */; };
+		650BBCA015DA52D9006D6A17 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650BBC9F15DA52D9006D6A17 /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		650BBC5315DA512A006D6A17 /* FicsClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FicsClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		650BBC5715DA512A006D6A17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		650BBC5915DA512A006D6A17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		650BBC5B15DA512A006D6A17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		650BBC7315DA5194006D6A17 /* FicsClientAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FicsClientAppDelegate.h; sourceTree = "<group>"; };
+		650BBC7415DA5194006D6A17 /* FicsClientAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FicsClientAppDelegate.m; sourceTree = "<group>"; };
+		650BBC7615DA5194006D6A17 /* ConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleViewController.h; sourceTree = "<group>"; };
+		650BBC7715DA5194006D6A17 /* ConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleViewController.m; sourceTree = "<group>"; };
+		650BBC7815DA5194006D6A17 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		650BBC7915DA5194006D6A17 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		650BBC7A15DA5194006D6A17 /* TestFigurinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFigurinesViewController.h; sourceTree = "<group>"; };
+		650BBC7B15DA5194006D6A17 /* TestFigurinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFigurinesViewController.m; sourceTree = "<group>"; };
+		650BBC7F15DA5194006D6A17 /* FicsConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FicsConnector.h; sourceTree = "<group>"; };
+		650BBC8015DA5194006D6A17 /* FicsConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FicsConnector.m; sourceTree = "<group>"; };
+		650BBC8115DA5194006D6A17 /* GraphicsProps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsProps.h; sourceTree = "<group>"; };
+		650BBC8215DA5194006D6A17 /* GraphicsProps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsProps.m; sourceTree = "<group>"; };
+		650BBC8315DA5194006D6A17 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FicsClient/main.m; sourceTree = "<group>"; };
+		650BBC8515DA5194006D6A17 /* GameInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfo.h; sourceTree = "<group>"; };
+		650BBC8615DA5194006D6A17 /* GameInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfo.m; sourceTree = "<group>"; };
+		650BBC8715DA5194006D6A17 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		650BBC8815DA5194006D6A17 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
+		650BBC8B15DA5194006D6A17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		650BBC8D15DA5194006D6A17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		650BBC8E15DA5194006D6A17 /* graphics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = graphics.plist; sourceTree = "<group>"; };
+		650BBC9015DA5194006D6A17 /* chessboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessboard.png; sourceTree = "<group>"; };
+		650BBC9F15DA52D9006D6A17 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650BBC5015DA512A006D6A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650BBC5815DA512A006D6A17 /* UIKit.framework in Frameworks */,
+				650BBC5A15DA512A006D6A17 /* Foundation.framework in Frameworks */,
+				650BBC5C15DA512A006D6A17 /* CoreGraphics.framework in Frameworks */,
+				650BBCA015DA52D9006D6A17 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650BBC4815DA5129006D6A17 = {
+			isa = PBXGroup;
+			children = (
+				650BBC8315DA5194006D6A17 /* main.m */,
+				650BBC7215DA5194006D6A17 /* AppDelegate */,
+				650BBC7515DA5194006D6A17 /* Controllers */,
+				650BBC7E15DA5194006D6A17 /* Helpers */,
+				650BBC8415DA5194006D6A17 /* Models */,
+				650BBC8915DA5194006D6A17 /* Resources */,
+				650BBC5615DA512A006D6A17 /* Frameworks */,
+				650BBC5415DA512A006D6A17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		650BBC5415DA512A006D6A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650BBC5315DA512A006D6A17 /* FicsClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650BBC5615DA512A006D6A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				650BBC9F15DA52D9006D6A17 /* CFNetwork.framework */,
+				650BBC5715DA512A006D6A17 /* UIKit.framework */,
+				650BBC5915DA512A006D6A17 /* Foundation.framework */,
+				650BBC5B15DA512A006D6A17 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		650BBC7215DA5194006D6A17 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				650BBC7315DA5194006D6A17 /* FicsClientAppDelegate.h */,
+				650BBC7415DA5194006D6A17 /* FicsClientAppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = FicsClient/AppDelegate;
+			sourceTree = "<group>";
+		};
+		650BBC7515DA5194006D6A17 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				650BBC7615DA5194006D6A17 /* ConsoleViewController.h */,
+				650BBC7715DA5194006D6A17 /* ConsoleViewController.m */,
+				650BBC7815DA5194006D6A17 /* GameViewController.h */,
+				650BBC7915DA5194006D6A17 /* GameViewController.m */,
+				650BBC7A15DA5194006D6A17 /* TestFigurinesViewController.h */,
+				650BBC7B15DA5194006D6A17 /* TestFigurinesViewController.m */,
+			);
+			name = Controllers;
+			path = FicsClient/Controllers;
+			sourceTree = "<group>";
+		};
+		650BBC7E15DA5194006D6A17 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				650BBC7F15DA5194006D6A17 /* FicsConnector.h */,
+				650BBC8015DA5194006D6A17 /* FicsConnector.m */,
+				650BBC8115DA5194006D6A17 /* GraphicsProps.h */,
+				650BBC8215DA5194006D6A17 /* GraphicsProps.m */,
+			);
+			name = Helpers;
+			path = FicsClient/Helpers;
+			sourceTree = "<group>";
+		};
+		650BBC8415DA5194006D6A17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				650BBC8515DA5194006D6A17 /* GameInfo.h */,
+				650BBC8615DA5194006D6A17 /* GameInfo.m */,
+				650BBC8715DA5194006D6A17 /* Piece.h */,
+				650BBC8815DA5194006D6A17 /* Piece.m */,
+			);
+			name = Models;
+			path = FicsClient/Models;
+			sourceTree = "<group>";
+		};
+		650BBC8915DA5194006D6A17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				650BBC8A15DA5194006D6A17 /* InfoPlist.strings */,
+				650BBC8C15DA5194006D6A17 /* MainWindow.xib */,
+				650BBC8E15DA5194006D6A17 /* graphics.plist */,
+				650BBC8F15DA5194006D6A17 /* images */,
+			);
+			name = Resources;
+			path = FicsClient/Resources;
+			sourceTree = "<group>";
+		};
+		650BBC8F15DA5194006D6A17 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				650BBC9015DA5194006D6A17 /* chessboard.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650BBC5215DA512A006D6A17 /* FicsClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650BBC6E15DA512A006D6A17 /* Build configuration list for PBXNativeTarget "FicsClient" */;
+			buildPhases = (
+				650BBC4F15DA512A006D6A17 /* Sources */,
+				650BBC5015DA512A006D6A17 /* Frameworks */,
+				650BBC5115DA512A006D6A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FicsClient;
+			productName = FicsClient;
+			productReference = 650BBC5315DA512A006D6A17 /* FicsClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650BBC4A15DA5129006D6A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "-";
+			};
+			buildConfigurationList = 650BBC4D15DA5129006D6A17 /* Build configuration list for PBXProject "FicsClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 650BBC4815DA5129006D6A17;
+			productRefGroup = 650BBC5415DA512A006D6A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650BBC5215DA512A006D6A17 /* FicsClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650BBC5115DA512A006D6A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650BBC9B15DA5194006D6A17 /* InfoPlist.strings in Resources */,
+				650BBC9C15DA5194006D6A17 /* MainWindow.xib in Resources */,
+				650BBC9D15DA5194006D6A17 /* graphics.plist in Resources */,
+				650BBC9E15DA5194006D6A17 /* chessboard.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650BBC4F15DA512A006D6A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650BBC9115DA5194006D6A17 /* FicsClientAppDelegate.m in Sources */,
+				650BBC9215DA5194006D6A17 /* ConsoleViewController.m in Sources */,
+				650BBC9315DA5194006D6A17 /* GameViewController.m in Sources */,
+				650BBC9415DA5194006D6A17 /* TestFigurinesViewController.m in Sources */,
+				650BBC9615DA5194006D6A17 /* FicsConnector.m in Sources */,
+				650BBC9715DA5194006D6A17 /* GraphicsProps.m in Sources */,
+				650BBC9815DA5194006D6A17 /* main.m in Sources */,
+				650BBC9915DA5194006D6A17 /* GameInfo.m in Sources */,
+				650BBC9A15DA5194006D6A17 /* Piece.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		650BBC8A15DA5194006D6A17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650BBC8B15DA5194006D6A17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		650BBC8C15DA5194006D6A17 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650BBC8D15DA5194006D6A17 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		650BBC6C15DA512A006D6A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		650BBC6D15DA512A006D6A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		650BBC6F15DA512A006D6A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FicsClient/FicsClient-Prefix.pch";
+				INFOPLIST_FILE = "FicsClient/FicsClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		650BBC7015DA512A006D6A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FicsClient/FicsClient-Prefix.pch";
+				INFOPLIST_FILE = "FicsClient/FicsClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650BBC4D15DA5129006D6A17 /* Build configuration list for PBXProject "FicsClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650BBC6C15DA512A006D6A17 /* Debug */,
+				650BBC6D15DA512A006D6A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650BBC6E15DA512A006D6A17 /* Build configuration list for PBXNativeTarget "FicsClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650BBC6F15DA512A006D6A17 /* Debug */,
+				650BBC7015DA512A006D6A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 650BBC4A15DA5129006D6A17 /* Project object */;
+}
