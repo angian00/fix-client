@@ -1,0 +1,110 @@
+----------------
+ TODO
+----------------
+ - fix navigation bar in console
+ - connector
+    - getter stato
+    - disconnettere in caso di errore
+
+ - leggere graphPropsda plist
+
+
+----------------
+ MILESTONES
+----------------
+
+ [0.0.1] connessione ed echo telnet client a fics
+ [0.0.2] implementazione base protocollo
+
+
+ [0.1.x] scheletro interfaccia
+ [0.2.x] engine validazione mosse
+
+
+
+----------------
+ comandi FICS
+----------------
+
+ - basic: general
+    - header iniziale
+    - prompt login
+    + login
+    ? logout
+    x seek ads (usare sought instead)
+    + seek
+    + play
+    + sought
+    + match
+
+ - basic: gameplay
+    +/- <mosse>
+    +/- resign/draw
+    +/- (interazione adj bot)
+
+ - da riconoscere e scartare
+    - news
+    - (talking)
+
+ - avanzati
+    - next (paginaz)
+    - seek formulas
+    - set variables
+    - finger
+
+ - sottosistemi
+    - journal
+    - mamer (td)
+    - history
+
+
+
+----------------
+ IDEE
+----------------
+
+- funzionalità:
+    - scheletro interfaccia
+    - validazione mosse
+    - client protocollo
+    - supporto New iPad
+    - supporto orientamenti multipli
+    - design grafico scacchiera
+    - pannelli accessori:
+        - seek
+        - finger
+        - rating graph
+        - stored games
+
+
+- organizzazione
+    - predisporre localization
+    - source control
+    - hosting codice: googlecode, github
+
+- da raptor
+    - keepalive thread
+
+- protocollo FICS:
+    - informarsi
+    - canali
+    - tornei
+    - interfacciarsi fics games
+    - relay
+
+
+- interfaccia grafica:
+    - mockup
+    - ispirarsi a client iOS installati:
+        - HappyChess
+        - coreChess
+        - ICC
+        - Chess.com
+        - Your Chess
+
+ - aggiornare OS + XCode
+
+ - installare veramente su iPad:
+    - informarsi licenze sviluppatori
+
+

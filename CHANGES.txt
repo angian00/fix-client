@@ -1,0 +1,8 @@
+----------------
+ CHANGE HISTORY
+----------------
+ [0.0.1]
+ - Custom async TCP socket implementation
+ - Parsing input from socket by lines: callback lineReceived.
+
+
